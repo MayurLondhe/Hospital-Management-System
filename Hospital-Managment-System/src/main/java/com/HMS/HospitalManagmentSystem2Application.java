@@ -9,7 +9,7 @@ public class HospitalManagmentSystem2Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HospitalManagmentSystem2Application.class, args);
-		System.out.println("hellow");
+		System.out.println("hello");
 	}
 	
 

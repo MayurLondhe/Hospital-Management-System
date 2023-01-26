@@ -56,7 +56,7 @@ public class HmsController {
 		Transaction tx = session.beginTransaction();
 		session.save(login);
 		tx.commit();
-		return null;
+		return "login";
 	}
 	
 	@RequestMapping("servicePage")
@@ -79,11 +79,8 @@ public class HmsController {
 		Transaction tx = session.beginTransaction();
 		session.save(contact);
 		tx.commit();
-		return null;
+		return "home";
 	}
-	@RequestMapping("galleryPage")
-	public String gallery() {
-		return "gallery";
-	}
+	
 	
 }
